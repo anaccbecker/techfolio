@@ -1,0 +1,127 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    --title-color: #fff;
+    --subtitle-color:#aeabb8;
+  }
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+  body{
+    background-color: var(--body-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+  #side{
+    width: 25vw;
+  }
+
+  #main{
+    width: 70vw;
+  }
+
+  #profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profileImage{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin: 1vw;
+    border: solid #00ff00.2rem;
+  }
+
+  .title{
+    font-weight: bold;
+    color: var(--title-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  #icons{
+    width: 20px;
+    height: 20px;
+    color: var(--text-color);
+    margin-right: 1rem;
+  }
+
+  a:link {
+    color: var(--text-color);
+  }
+  a:visited {
+    color: var(--text-color);
+  }
+
+ 
+  #technologies-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #icons-tech{
+    width: 60px;
+    height: 60px;
+    color: white;
+  }
+
+  #span-tech{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;  
+    align-items: center; 
+  }
+
+  #span-exp-title{
+    font-weight: bold;
+    color: var(--subtitle-color);
+  }
+
+  span{
+    margin: 0.5rem
+  }
+
+  #language{
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    border: var(--text-color);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
